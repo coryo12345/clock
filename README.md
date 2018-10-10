@@ -6,5 +6,5 @@ Requires electron
 Written in pure javascript
 
 # To run
-make install
+make install  
 electron .
