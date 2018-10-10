@@ -55,7 +55,8 @@ function phys(){
 
     //hours
     var h = d.getHours();
-    var rad = toRadian(h*6);
+    var h_angle = (h*30) + (30 * m/60);
+    var rad = toRadian(h_angle);
     tmpx = Math.round(hours.length * Math.sin(rad));
     tmpy = -1 * Math.round(hours.length * Math.cos(rad));
     hours.x = tmpx + xc;
