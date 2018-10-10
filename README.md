@@ -5,6 +5,10 @@ An electron app which displays the current time in an analog clock format
 Requires electron  
 Written in pure javascript
 
-# To run
+# To run (Unix)
 make install  
-electron .
+./run.sh  
+
+# To run (Windows)
+win_install.bat  
+win_run.bat  
