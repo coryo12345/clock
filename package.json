@@ -1,0 +1,11 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "clock application",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "",
+  "license": "ISC"
+}
